@@ -1,0 +1,137 @@
+body{
+    
+    height: 100vh;
+    width: 100vw;
+
+/*     
+    display: flex;
+    flex-direction:column;
+    justify-content: center; */
+    background: linear-gradient(to left, #00ffff 0%, #ffffff 100%);
+}
+*{
+    
+    
+    /* overflow:hidden; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+/* box-sizing:border-box; */
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    max: height 10vh;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    font-size: large;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+  }
+  a{
+      text-decoration: none;
+      
+  }
+  button{
+    background-color : #0bbdb4;
+    padding:4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-weight: 600;
+    width: fit-content;
+
+}
+.button{
+    
+        background-color : #0bbdb4;
+        padding:4px 10px;
+        cursor: pointer;
+        color: white;
+        border: 1px solid white;
+        border-radius: 6px;
+        font-weight: 600;
+        width: fit-content;
+    
+    }
+    .button:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    /* margin-left: 100px; */
+    justify-content: center;
+    margin-top: 50px;
+   
+
+    
+    
+}
+.right-main-div{
+   
+   background-color:#ffffff;
+   height: 300px;
+}
+.right-main-div h2 span{
+  color: rgb(3, 115, 109);
+}
+.right-main-div p{
+    color: rgb(3, 115, 109);
+    font-weight: 700;
+}
+.space{
+    margin-left: 20px;
+}
+.right-main-div h3{
+    text-align: center;
+    color: rgb(3, 115, 109);
+    text-decoration: underline;
+
+}
+.chat-btns{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+footer ul li i{
+    size: 25px;
+}
+footer p{
+    font-weight: 570;
+}
+
